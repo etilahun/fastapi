@@ -1,0 +1,5 @@
+__pycache__
+venv/
+.env
+App_backup_with_notes/
+App/env_var_example.py
