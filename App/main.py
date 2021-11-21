@@ -7,7 +7,8 @@ print(settings.db_username)
 
 app = FastAPI()
 
-origins = ['http://www.google.com', 'http://www.youtube.com', 'http://www.ebay.com'] 
+# origins = ['http://www.google.com', 'http://www.youtube.com', 'http://www.ebay.com'] 
+origins = ['*']
 app.add_middleware(
   CORSMiddleware, 
   allow_origins=origins,
